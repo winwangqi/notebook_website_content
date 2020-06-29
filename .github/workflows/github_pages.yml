@@ -7,9 +7,12 @@ on:
 
 jobs:
   trigger-action:
-    uses: peter-evans/repository-dispatch@v1
-    with:
-      token: ${{ secrets.REPO_ACCESS_TOKEN }}
-      repository: winwangqi/notebook_website
-      event-type: trigger-action-by-content
-      client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
+    runs-on: ubuntu-latest
+    steps:
+    - name: dispatch event
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.REPO_ACCESS_TOKEN }}
+        repository: winwangqi/notebook_website
+        event-type: trigger-action-by-content
+        client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
