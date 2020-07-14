@@ -14,6 +14,7 @@
     - 以幽默的方式过一生
 
 - 计算机与编程:
+  - 学习资源
   - 程序设计思想:
     - 接口设计
 
@@ -25,7 +26,7 @@
     - Vim:
       - vimtutor
       - 常用命令
-    - 在线工具
+    - 实用工具
 
   - Redis:
     - 基本类型
@@ -35,9 +36,9 @@
     - FAQs
 
   - FrontEnd:
+      - 学习资源
+      - 工具库
       - Animation
-      - 面试:
-          - 综合
       - 安全
       - 文章
       - 游戏开发之 Phaser
@@ -107,6 +108,13 @@
         - e2e 测试
     - 微信公众号
 
+  - UserAgent
+
+  - 面试:
+      - 面试方法与技巧
+      - 前端综合
+      - JavaScript
+
 - English:
   - 学习资源
   - Grammar:
@@ -115,7 +123,7 @@
     - Meeting:
       - Lesson1 Opening a meeting
       - Lesson2 Discussing proposals in a meeting
-      - Lesson3 Concluding a meeting
+      - Lesson3 Concluding a Meeting
       - Lesson4 Summarizing a meeting
     #- Dealing with change:
       #- Putting change in perspective
