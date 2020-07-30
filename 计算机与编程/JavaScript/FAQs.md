@@ -66,7 +66,7 @@ element.scrollIntoView(scrollIntoViewOptions); // Object型参数
 
 ## 如何解析 query string?
 
-[MDN: URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+### [MDN: URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
 
 ```javascript
 var paramsString = "q=URLUtils.searchParams&topic=api";
@@ -89,6 +89,13 @@ searchParams.delete("topic");
 searchParams.toString(); // "q=URLUtils.searchParams"
 ```
 
+### [URL.searchParams](https://developer.mozilla.org/en-US/docs/Web/API/URL/searchParams)
+
+```javascript
+let params = (new URL(document.location)).searchParams;
+let name = params.get('name'); // is the string "Jonathan Smith".
+let age = parseInt(params.get('age')); // is the number 18
+```
 
 ## 浏览器标签页间状态共享
    

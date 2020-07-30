@@ -64,3 +64,15 @@ MDX is an authorable format that lets you seamlessly write JSX in your Markdown 
 
 - https://mdxjs.com/guides/live-code
 - https://github.com/FormidableLabs/react-live
+
+## [Showdown](http://showdownjs.com/)
+
+A Markdown to HTML bidirectional converter written in Javascript!
+
+https://github.com/showdownjs/showdown
+
+http://demo.showdownjs.com/
+
+## [marked](https://github.com/markedjs/marked)
+
+A markdown parser and compiler. Built for speed.
