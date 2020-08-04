@@ -7,6 +7,8 @@
 - [阿里校招前端笔试题小结](https://juejin.im/entry/59a039995188252435079fa1)
 - [前端开发面试题集合](https://www.runoob.com/w3cnote/front-end-developer-questions-and-answers.html)
 - [前端面试考点多？看这些文章就够了（2019年6月更新版）](https://juejin.im/post/5aae076d6fb9a028cc6100a9#heading-12)
+- [金三银四，你可以行动了](https://juejin.im/post/6844903780266278925)
+- [中高级前端大厂面试秘籍，为你保驾护航金三银四，直通大厂(上)](https://juejin.im/post/6844903776512393224)
 
 ## 问题
 
