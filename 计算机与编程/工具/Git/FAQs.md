@@ -39,3 +39,16 @@ You should also specify **caching expire**:
 ```bash
 git config --global credential.helper 'cache --timeout 7200'
 ```
+
+## [How can I merge two commits into one if I already started rebase?](https://stackoverflow.com/questions/2563632/how-can-i-merge-two-commits-into-one-if-i-already-started-rebase)
+
+```bash
+git rebase --interactive HEAD~2
+```
+
+or
+
+```bash
+git reset --soft "HEAD^"
+git commit --amend
+```
