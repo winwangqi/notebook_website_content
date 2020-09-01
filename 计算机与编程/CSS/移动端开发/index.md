@@ -1,5 +1,68 @@
 # 移动端开发总结
 
+## 移动端开发实现自适应适配
+
+### 解决方案1：rem
+
+#### 版本1：meta scale 缩放 [ant-design-mobile:HD](https://github.com/ant-design/ant-design-mobile/wiki/HD)
+
+##### 设置 viewport 和计算 root font size
+
+*mete scale 会导致引用外部库缩放展示*
+
+**压缩版**
+
+```js:title=antm-viewport.min.js file=./scripts/antm-viewport.min.js
+```
+
+**未压缩版**
+
+```js:title=antm-viewport.js file=./scripts/antm-viewport.js
+```
+
+##### px to rem
+
+```js:title=webpack.config.js
+// npm install postcss-pxtorem --save-dev
+const pxtorem = require('postcss-pxtorem');
+webpackConfig.postcss.push(pxtorem({
+  rootValue: 100,
+  propWhiteList: [],
+}));
+```
+
+#### 版本2：flexible [lib-flexible](https://github.com/amfe/lib-flexible)
+
+##### 设置 viewport 和计算 root font size
+
+**压缩版**
+
+```js:title=flexible.min.js file=./scripts/flexible.min.js
+```
+
+**未压缩版**
+
+```js:title=flexible.js file=./scripts/flexible.js
+```
+
+##### px to rem
+
+```js:title=webpack.config.js
+// npm install postcss-pxtorem --save-dev
+const pxtorem = require('postcss-pxtorem');
+webpackConfig.postcss.push(pxtorem({
+  rootValue: 75,
+  propWhiteList: [],
+}));
+```
+
+*postcss-pxtorem-exclude 包可以排除特定路径*
+
+### 解决方案2：viewport
+
+- [如何在Vue项目中使用vw实现移动端适配](https://juejin.im/entry/6844903571096338439)
+- [evrone/postcss-px-to-viewport](https://github.com/evrone/postcss-px-to-viewport)
+
 ## 取消点击高亮
 
 ```css
@@ -151,13 +214,3 @@ body {
 ```
 
 [参考：网页适配 iPhoneX，就是这么简单](https://aotu.io/notes/2017/11/27/iphonex/index.html)
-
-
-## flexible.js
-
-[flexible.js](https://github.com/amfe/lib-flexible)
-
-
-## HD 缩放
-
-https://github.com/ant-design/ant-design-mobile/wiki/HD
