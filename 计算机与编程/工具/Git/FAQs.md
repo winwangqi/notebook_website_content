@@ -52,3 +52,9 @@ or
 git reset --soft "HEAD^"
 git commit --amend
 ```
+
+## [How do I discard unstaged changes in Git?](https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git)
+
+```bash
+git checkout -- .
+```
