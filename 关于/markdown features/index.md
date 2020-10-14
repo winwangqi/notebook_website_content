@@ -1,10 +1,10 @@
 # 一级标题
 
 这是一些内容，这是一些内容，这是一些内容，这是一些内容。
-这是一些内容，这是一些内容，这是一些内容，这是一些内容。这是一些内容，这是一些内容，这是一些内容，这是一些内容。
+这是一些保留换行的内容，这是一些保留换行的内容，这是一些保留换行的内容。
 
-这是一些内容，这是一些内容，这是一些内容，这是一些内容。
-这是一些内容，这是一些内容，这是一些内容，这是一些内容。这是一些内容，这是一些内容，这是一些内容，这是一些内容。
+这是第二段的内容，这是第二段的内容，这是第二段的内容。
+这是第二段的内容，这是第二段的内容，这是第二段的内容。这是第二段的内容。
 
 ## 二级标题
 
@@ -26,12 +26,25 @@
 
 这是一些内容，这是一些内容，这是一些内容，这是一些内容。
 
+
+## 删除
+
+~~delete~~
+
+## 行内代码
+
+`code`
+
 ## 列表
+
+### 无序列表
 
 - abc
 - def
 - hij
 - kli
+
+### 有序列表
 
 1. asb
 1. asb
@@ -58,7 +71,7 @@
 
 ## 代码块
 
-带有语言标签
+### 带有语言标签
 
 ```javascript
 // In your gatsby-config.js
@@ -76,9 +89,23 @@ plugins: [
 ]
 ```
 
-带有代码块标题
+### 带有标题
 
-```jsx:title=abc
+markdown
+
+````markdown
+```jsx:title=title
+class ComponentComponentComponentComponent extends React.Component {
+    return (
+        <div>text</div>
+    )
+}
+```
+````
+
+==>
+
+```jsx:title=title
 class ComponentComponentComponentComponent extends React.Component {
     return (
         <div>text</div>
@@ -162,7 +189,6 @@ configure --> draw[Draw Fancy Diagrams]
 文字文字文字文字
 文字文字文字文字
 
-另一段文字文字文字文字文字文字文字
 
 ### gatsby-remark-import-code
 
@@ -174,3 +200,25 @@ below code from external file
 
 ```js file=./external.js
 ```
+
+
+### remark-underline
+
+```markdown
+__underline text__
+```
+
+==>
+
+__underline text__
+
+
+### remark-inline-highlight
+
+```markdown
+!!abcc!!
+```
+
+==>
+
+!!abcc!!

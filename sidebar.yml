@@ -95,7 +95,9 @@
     - 代码片段
     - 移动端开发
     - 如何使用 CSS 自动切换明暗模式
-    - flex
+    - 知识点:
+      - BFC
+      - flex
 
   - JavaScript:
     - 学习资料
@@ -208,5 +210,5 @@
 - 关于:
   - 导航
   - 功能需求
-  - markdown features
   - 技术选型
+  - markdown features
