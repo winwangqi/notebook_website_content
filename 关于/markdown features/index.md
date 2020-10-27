@@ -69,17 +69,71 @@
 | abc | abc | abc |
 
 
-## 代码块
+## [代码块](https://www.gatsbyjs.com/plugins/gatsby-remark-prismjs/)
 
-### 带有语言标签
+### 带有语言标签及行数高亮
+
+````markdown
+```javascript
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    // highlight-start
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+    // highlight-end
+  }
+]
+```
+````
+
+==>
 
 ```javascript
 // In your gatsby-config.js
 plugins: [
   {
-    //highlight-start
     resolve: `gatsby-transformer-remark`,
+    //highlight-start
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
     //highlight-end
+  }
+]
+```
+
+or
+
+````markdown
+```javascript{2,6,11}
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        `gatsby-remark-prismjs`,
+      ]
+    }
+  }
+]
+```
+````
+
+==>
+
+```javascript{2,6,11}
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
     options: {
       plugins: [
         `gatsby-remark-prismjs`,
