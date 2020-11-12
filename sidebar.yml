@@ -2,6 +2,8 @@
 
 - 生活感悟与人生格言
 
+- 稍后阅读
+
 - 学习规划
 
 - 阅读:
@@ -35,6 +37,7 @@
       - 学习资源
       - branch
       - remote
+      - hook
       - FAQs
     - Vim:
       - vimtutor
@@ -85,6 +88,7 @@
     - 安全
     - Library
     - 视频播放器
+    - MVVM
     - 游戏开发:
       - 学习资料
       - PhaserJS
