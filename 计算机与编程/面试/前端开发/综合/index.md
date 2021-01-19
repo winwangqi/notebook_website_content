@@ -3,6 +3,7 @@
 ## 面试题收集
 
 - [高级前端进阶](https://muyiy.cn/blog/)
+- [每日一题](https://lucifer.ren/fe-interview/#/daily/)
 - [50道 CSS 基础面试题（附答案）](https://juejin.im/entry/6844903591317094407)
 - [几道高级前端面试题解析](https://juejin.im/post/5aa8a07cf265da238a3022a4?utm_source=gold_browser_extension)
 - [阿里校招前端笔试题小结](https://juejin.im/entry/59a039995188252435079fa1)
