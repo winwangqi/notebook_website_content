@@ -1,4 +1,4 @@
-# 前端面试之 JavaScript 部分
+# 前端开发面试 - JavaScript
 
 ## `<script>` 标签 `async` 和 `defer` 的却别
 
@@ -14,3 +14,21 @@ HTML5 规范要求脚本按照它们出现的先后顺序执行，因此第一�
 
 [参考](https://zhuanlan.zhihu.com/p/30898865#:~:text=Async%E6%98%AF%E5%9C%A8%E5%A4%96%E9%83%A8JS,%E6%96%87%E4%BB%B6%EF%BC%8C%E6%89%80%E4%BB%A5%E5%8F%AF%E4%BB%A5%E8%8A%82%E7%9C%81%E6%97%B6%E9%97%B4%E3%80%82)
 
+## 事件循环
+
+- [浏览器与Node的事件循环(Event Loop)有何区别?](https://juejin.cn/post/6844903761949753352)
+- [Node.js 事件循环，定时器和 `process.nextTick()`](https://nodejs.org/zh-cn/docs/guides/event-loop-timers-and-nexttick/)
+
+## `new` 运算符
+
+- [new 运算符](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new)
+
+## 自定义事件
+
+- [创建和触发 events](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Events/Creating_and_triggering_events)
+
+## [setTimeout、Promise、Async/Await 的区别](https://muyiy.cn/question/async/8.html)
+
+## 模块化
+
+- [模块化思维导图](https://www.processon.com/view/link/5c8409bbe4b02b2ce492286a#map)
