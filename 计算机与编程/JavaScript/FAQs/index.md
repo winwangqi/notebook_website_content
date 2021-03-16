@@ -129,3 +129,9 @@ a.test = 21;
 ```
 
 then such property becomes an enumerable automatically and both methods produce the same array.
+
+## `script` 标签的 `defer` 和 `async` 区别
+
+[ref](https://stackoverflow.com/questions/10808109/script-tag-async-defer)
+
+![defer-and-async](./images/defer-and-async.png)
