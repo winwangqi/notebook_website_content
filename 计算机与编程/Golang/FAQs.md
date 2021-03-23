@@ -13,3 +13,8 @@
 ## [Using goroutines on loop iterator variables](https://github.com/golang/go/wiki/CommonMistakes)
 
 ## [gin 如何热重启？](https://xguox.me/golang-gin-hot-reload.html/)
+
+## 循环引用
+
+- [Import Cycles in Golang: How To Deal With Them](https://jogendra.dev/import-cycles-in-golang-and-how-to-deal-with-them)
+
