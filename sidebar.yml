@@ -35,11 +35,13 @@
 
   - 工具:
     - Git:
+      - Config
       - 学习资源
-      - branch
-      - remote
-      - hook
+      - Branch
+      - Remote
+      - Hook
       - FAQs
+      - 其它
     - Vim:
       - vimtutor
       - 常用命令
@@ -48,6 +50,8 @@
       - FAQs
     - 实用工具
     - 梯子
+
+  - 测试工具
 
   - Docker:
     - 学习资源
@@ -96,6 +100,7 @@
     - 游戏开发:
       - 学习资料
       - PhaserJS
+    - 其它
 
   - HTML:
     - 代码片段
@@ -137,11 +142,16 @@
     - FAQs
 
   - TypeScript:
+    - 基础类型
+    - 类
+    - 接口
     - 三斜线指令
     - FAQs
 
   - React:
     - 学习资源
+    - 基础知识
+    - SSR
     - Hooks
     - 生态
 
@@ -153,6 +163,9 @@
   - RxJS
   - Babel
   - Webpack
+
+  - MySQL:
+    - 基础
 
   - HTTPS:
     - 免费申请 HTTPS 证书
@@ -258,7 +271,7 @@
 
 - 诗歌
 
-- 效率管理
+- 效率提升
 
 - 关于:
   - 导航
