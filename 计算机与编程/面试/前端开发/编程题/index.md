@@ -2,7 +2,7 @@
 
 ## [Function.prototype.bind()](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 
-```JavsScript
+```JavaScript
 //  Yes, it does work with `new (funcA.bind(thisArg, args))`
 if (!Function.prototype.bind) (function () {
   var ArrayPrototypeSlice = Array.prototype.slice;
