@@ -30,3 +30,8 @@ npm install
 ```
 
 [ref](https://stackoverflow.com/questions/16073603/how-to-update-each-dependency-in-package-json-to-the-latest-version)
+
+
+## 私有仓库
+
+- [verdaccio](https://github.com/verdaccio/verdaccio)
