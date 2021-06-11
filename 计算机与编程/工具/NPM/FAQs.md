@@ -35,3 +35,22 @@ npm install
 ## 私有仓库
 
 - [verdaccio](https://github.com/verdaccio/verdaccio)
+
+
+## `npm i -g [pkg]` permission denied
+
+- [Error: EACCES: permission denied, access '/usr/local/lib/node_modules'](https://stackoverflow.com/questions/48910876/error-eacces-permission-denied-access-usr-local-lib-node-modules)
+- [NPM Install - Resolving EACCES Permissions Denied](https://letscodepare.com/blog/npm-resolving-eacces-permissions-denied)
+- [How to fix npm throwing error without sudo](https://stackoverflow.com/questions/16151018/how-to-fix-npm-throwing-error-without-sudo)
+
+first check who owns the directory
+
+```bash
+ls -la /usr/local/lib/node_modules
+```
+
+then change the directory owner
+
+```bash
+sudo chown -R $USER /usr/local/lib/node_modules
+```
