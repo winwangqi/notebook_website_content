@@ -132,3 +132,7 @@ git push -f/--force <remote> <commit-hash>:<remote-branch>
 git reset --hard <commit-hash>
 git push -f/--force <remote> <branch>
 ```
+### 重命名本地分支和远程分支
+
+> [How do I rename both a Git local and remote branch name?](https://stackoverflow.com/questions/30590083/how-do-i-rename-both-a-git-local-and-remote-branch-name)
+> [5 steps to change GitHub default branch from master to main](https://stevenmortimer.com/5-steps-to-change-github-default-branch-from-master-to-main/)
